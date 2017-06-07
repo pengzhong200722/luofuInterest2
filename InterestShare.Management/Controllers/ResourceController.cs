@@ -13,9 +13,11 @@ using System.Web.Mvc;
 
 namespace InterestShare.Management.Controllers
 {
+    /// <summary>
+    /// 资源管理
+    /// </summary>
         public class ResourceController : BaseController
         {
-
             protected IResourceBll ResourceBll
             {
                 get
